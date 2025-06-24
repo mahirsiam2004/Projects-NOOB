@@ -5,6 +5,66 @@
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
+@font-face {
+    font-family: m-font;
+    src: url(Under\ Station.otf);
+}
+
+@font-face {
+    font-family: m-font-2;
+    src: url(Aventine\ Demo.otf);
+}
+
+.hero {
+    width: 100%;
+    height: 100vh;
+    background-image: url('abhi-shek-CIQtp39DAAQ-unsplash.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
+
+main h1 {
+    display: grid;
+    place-items: center;
+    text-align: center;
+    font-size: 60px;
+}
+
+main .fancy {
+    font-family: m-font;
+}
+
+.fancy-btn {
+    margin-top: 20px;
+    padding: 14px 30px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: m-font-2, sans-serif;
+    color: #fff;
+    background: linear-gradient(135deg, #ff416c, #ff4b2b);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    box-shadow: 0 8px 20px rgba(255, 75, 43, 0.4);
+    transition: all 0.4s ease-in-out;
+    letter-spacing: 1px;
+}
+
+.fancy-btn:hover {
+    background: linear-gradient(135deg, #ff4b2b, #ff416c);
+    transform: scale(1.05);
+    box-shadow: 0 10px 25px rgba(255, 75, 43, 0.6);
+}
+
+
 h1 {
     font-size: 100px;
     font-weight: bold;
@@ -17,7 +77,8 @@ p {
     font-size: 22px;
     color: white;
     text-transform: uppercase;
-    /* text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5); */
+    /* font-variant:small-caps; */
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
     max-width: 800px;
 }
 
@@ -35,7 +96,7 @@ section {
     background-attachment: fixed;
 }
 
-.sec-2{
+.sec-2 {
     width: 100%;
     height: 100vh;
     display: grid;
@@ -48,7 +109,8 @@ section {
     background-position: center;
     background-attachment: fixed;
 }
-.sec-3{
+
+.sec-3 {
     width: 100%;
     height: 100vh;
     display: grid;
@@ -60,4 +122,22 @@ section {
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
+}
+
+footer {
+
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: #111;
+    color: #eee;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 16px;
+    position: relative;
+    z-index: 2;
+}
+
+footer p .fancy {
+    font-family: m-font;
 }

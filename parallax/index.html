@@ -4,12 +4,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Backgroud-image</title>
+    <title>Background Image Parallax</title>
     <link rel="stylesheet" href="style.css">
-
 </head>
 
 <body>
+
+    <!-- Main Hero Section -->
+    <main class="hero">
+        <div class="hero-content">
+            <h1>Mahir's <span class="fancy">buggy</span> parallax web</h1>
+            <p class="intro">Welcome to a delicious visual journey through fruits! Scroll down to learn about bananas,
+                apples, strawberries and more.</p>
+            <button class="fancy-btn"
+                onclick="document.querySelector('section').scrollIntoView({behavior: 'smooth'});">Let's RocK</button>
+
+        </div>
+    </main>
+
+    <!-- Section 1 -->
     <section>
         <div>
             <h1>Banana</h1>
@@ -18,6 +31,7 @@
         </div>
     </section>
 
+    <!-- Section 2 -->
     <section class="sec-2">
         <div>
             <h1>Apple</h1>
@@ -25,13 +39,20 @@
         </div>
     </section>
 
+    <!-- Section 3 -->
     <section class="sec-3">
         <div>
             <h1>Strawberry</h1>
-            <p>Strawberries are sweet, juicy, and full of vitamin C. They’re perfect for desserts, smoothies, and summer
-                snacks!</p>
+            <p>Strawberries are sweet, juicy, and full of vitamin C. Perfect for desserts, smoothies, and summer snacks!
+            </p>
         </div>
     </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>Made by <span class="fancy">Mahir Siam</span> &copy; 2025 | Designed for love and learning 🍓</p>
+    </footer>
+
 
 </body>
 
