@@ -18,10 +18,10 @@
 .hero {
     width: 100%;
     height: 100vh;
-    background-image: url('abhi-shek-CIQtp39DAAQ-unsplash.jpg');
+    background-image: url('julia-zolotova-M_xIaxQE3Ms-unsplash.jpg');
     background-size: cover;
     background-position: center;
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -35,7 +35,8 @@ main h1 {
     display: grid;
     place-items: center;
     text-align: center;
-    font-size: 60px;
+    font-size: 80px;
+    color: rgba(11, 1, 1, 0.768);
 }
 
 main .fancy {
